@@ -52,6 +52,8 @@ nav {
  }
  #about_us {
      height: 1000px;
+     /* background-color: red; */
+     /* color: white; */
  }
  #about_us h1 {
      text-align: center;
