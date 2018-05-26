@@ -55,7 +55,7 @@ nav {
  }
  #about_us {
      height: 1000px;
-     background-color: #E53935;
+     background-color: #c62828;
      color: white;
  }
  #about_us h1 {
@@ -88,7 +88,7 @@ nav {
  #contact_us button {
      width: 225px;
      height: 75px;
-     background-color: #E53935;
+     background-color: #c62828;
      color: white;
      font-size: 20px;
      font-weight: bold;
