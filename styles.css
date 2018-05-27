@@ -38,21 +38,37 @@ nav {
      width: 100%;
      height: 600px;
  }
- #name_of_p {
+ #portfolio #name_of_p {
     position: relative;
-    text-align: center;
-    top: 10px;
+    /* text-align: center; */
+    justify-content: center;
+    /* top: 10px; */
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
     /* color: white; */
 }
-
- #portfolio_caroulse img {
+  #portfolio_carousel {
+     position: absolute;
+     top: 0;
+     height: 100%;
+    display: flex;
+    direction: row;
+ }
+ #portfolio .background {
+     height: 300px;
+     width: 30%;
+ }
+img.foreground {
+     height: 400px;
+     width: 60%;
+     align-self: flex-end;
+ }
+ /* #portfolio_caroulse img {
     width: 100%;
     height: 400px;
     position: absolute;
- }
+ } */
  #about_us {
      height: 1000px;
      background-color: #c62828;
